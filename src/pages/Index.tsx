@@ -2,16 +2,10 @@ import { Instagram, Phone } from "lucide-react";
 import DiamondLogo from "@/components/DiamondLogo";
 import PriceRow from "@/components/PriceRow";
 import WashPriceTable from "@/components/WashPriceTable";
+import PolishPriceTable from "@/components/PolishPriceTable";
 import foamWash from "@/assets/foam-wash.jpg";
 import polish from "@/assets/polish.jpg";
 import brushedMetal from "@/assets/brushed-metal.jpg";
-
-const polishServices = [
-  { name: "Легка поліровка", price: "4000" },
-  { name: "Глибока поліровка", price: "7000" },
-  { name: "Зональна поліровка", price: "1000", fromPrice: true },
-  { name: "Нанесення кераміки", price: "12000" },
-];
 
 const Index = () => {
   return (
@@ -117,11 +111,7 @@ const Index = () => {
                 <h3 className="mb-4 text-center text-base font-bold uppercase tracking-widest neon-text sm:mb-6 sm:text-xl md:text-2xl">
                   Поліровка кузова
                 </h3>
-                <div className="space-y-3 sm:space-y-5 max-w-2xl mx-auto">
-                  {polishServices.map((s) => (
-                    <PriceRow key={s.name} {...s} />
-                  ))}
-                </div>
+                <PolishPriceTable />
               </div>
             </div>
           </div>
