@@ -21,12 +21,18 @@ const DiamondLogo = ({ size = 64, className = "" }: DiamondLogoProps) => {
           <stop offset="100%" stopColor="hsl(200 100% 35%)" />
         </linearGradient>
       </defs>
-      <g stroke="hsl(var(--neon))" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" fill="url(#diamondFace)" fillOpacity="0.15">
+      <g stroke="hsl(var(--neon))" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" fill="url(#diamondFace)" fillOpacity="0.15">
+        {/* Outer diamond */}
         <path d="M12 22 L32 8 L52 22 L32 58 Z" />
+        {/* Top horizontal girdle */}
         <path d="M12 22 L52 22" />
-        <path d="M22 22 L32 8 L42 22 L32 58" />
-        <path d="M22 22 L42 22" />
+        {/* Inner facets from top */}
+        <path d="M22 22 L32 8 L42 22" />
+        {/* Facets to bottom point */}
         <path d="M12 22 L32 58" />
+        <path d="M22 22 L32 58" />
+        <path d="M42 22 L32 58" />
+        <path d="M52 22 L32 58" />
       </g>
     </svg>
   );
