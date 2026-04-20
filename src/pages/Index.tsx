@@ -31,7 +31,7 @@ const Index = () => {
             АВТОДЕТЕЙЛІНГ
           </p>
           <h1 className="text-4xl font-extralight tracking-[0.3em] text-foreground glow-text-white sm:text-5xl sm:tracking-[0.4em] md:text-7xl">
-            CRISTAL
+            CRYSTAL
           </h1>
           <div
             aria-hidden
@@ -131,7 +131,7 @@ const Index = () => {
             </a>
 
             <p className="text-[0.6rem] uppercase tracking-[0.25em] text-muted-foreground sm:text-xs sm:tracking-[0.3em]">
-              © 2025 Cristal Detailing
+              © 2025 Crystal Detailing
             </p>
 
             <a
