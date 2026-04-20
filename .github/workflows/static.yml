@@ -1,4 +1,4 @@
-#name: Deploy Vite Site
+name: Deploy Vite Site
 on:
   push:
     branches: ["основной"]
@@ -34,5 +34,5 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 Simple workflow for deploying static content to GitHub Pages
+        uses: actions/deploy-pages@v4
 
