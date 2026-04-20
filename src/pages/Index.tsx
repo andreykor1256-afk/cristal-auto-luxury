@@ -62,7 +62,7 @@ const Index = () => {
           {/* Center hero content (overlay on desktop) */}
           <div className="relative z-10 flex flex-col items-center justify-center gap-6 px-2 py-8 text-center md:absolute md:inset-0 md:px-8 md:py-0">
             <h2 className="text-3xl font-bold uppercase leading-tight text-foreground glow-text-white md:text-5xl lg:text-6xl">
-              Преміум детейлінг
+              Автодетейлінг
               <br />
               <span className="neon-text">у Глухові</span>
             </h2>
@@ -129,16 +129,6 @@ const Index = () => {
               </div>
             </div>
           </div>
-        </section>
-
-        {/* Main CTA */}
-        <section className="mt-16 flex justify-center md:mt-20">
-          <a
-            href="tel:+380755012591"
-            className="animate-pulse-neon group relative inline-flex items-center justify-center rounded-full border-2 border-primary bg-primary/15 px-12 py-5 text-base font-extrabold uppercase tracking-[0.25em] text-foreground backdrop-blur-sm transition-smooth hover:bg-primary/25 md:px-20 md:py-6 md:text-lg"
-          >
-            <span className="neon-text">Записатися онлайн</span>
-          </a>
         </section>
 
         {/* Footer */}
