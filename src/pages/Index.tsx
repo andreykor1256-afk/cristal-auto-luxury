@@ -109,7 +109,7 @@ const Index = () => {
 
               <div className="border-t border-primary/30 pt-8">
                 <h3 className="mb-4 text-center text-base font-bold uppercase tracking-widest neon-text sm:mb-6 sm:text-xl md:text-2xl">
-                  Поліровка кузова
+                  Полірування кузова
                 </h3>
                 <PolishPriceTable />
               </div>
