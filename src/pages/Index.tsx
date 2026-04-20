@@ -1,16 +1,10 @@
 import { Instagram, Phone } from "lucide-react";
 import DiamondLogo from "@/components/DiamondLogo";
 import PriceRow from "@/components/PriceRow";
+import WashPriceTable from "@/components/WashPriceTable";
 import foamWash from "@/assets/foam-wash.jpg";
 import polish from "@/assets/polish.jpg";
 import brushedMetal from "@/assets/brushed-metal.jpg";
-
-const washServices = [
-  { name: "Експрес мийка", price: "300" },
-  { name: "Комплексна мийка", price: "600" },
-  { name: "Хімчистка салону", price: "2000", fromPrice: true },
-  { name: "Нанокераміка водовідштовх.", price: "1500" },
-];
 
 const polishServices = [
   { name: "Легка поліровка", price: "4000" },
@@ -111,23 +105,19 @@ const Index = () => {
               Наш прайс-лист
             </h2>
 
-            <div className="grid grid-cols-1 gap-8 sm:gap-10 md:grid-cols-2 md:gap-16">
+            <div className="space-y-10 md:space-y-14">
               <div>
                 <h3 className="mb-4 text-center text-base font-bold uppercase tracking-widest neon-text sm:mb-6 sm:text-xl md:text-2xl">
-                  Мийка кузова
+                  Мийка кузова та салону
                 </h3>
-                <div className="space-y-3 sm:space-y-5">
-                  {washServices.map((s) => (
-                    <PriceRow key={s.name} {...s} />
-                  ))}
-                </div>
+                <WashPriceTable />
               </div>
 
-              <div className="border-t border-primary/30 pt-8 md:border-l md:border-t-0 md:pl-16 md:pt-0">
+              <div className="border-t border-primary/30 pt-8">
                 <h3 className="mb-4 text-center text-base font-bold uppercase tracking-widest neon-text sm:mb-6 sm:text-xl md:text-2xl">
                   Поліровка кузова
                 </h3>
-                <div className="space-y-3 sm:space-y-5">
+                <div className="space-y-3 sm:space-y-5 max-w-2xl mx-auto">
                   {polishServices.map((s) => (
                     <PriceRow key={s.name} {...s} />
                   ))}
