@@ -44,6 +44,11 @@ const Index = () => {
           <h1 className="text-5xl font-extralight tracking-[0.4em] text-foreground glow-text-white md:text-7xl">
             CRISTAL
           </h1>
+          <div
+            aria-hidden
+            className="mt-2 h-[2px] w-40 rounded-full bg-primary md:w-56"
+            style={{ boxShadow: "0 0 12px hsl(var(--neon)), 0 0 24px hsl(var(--neon) / 0.6)" }}
+          />
         </header>
 
         {/* Hero */}
