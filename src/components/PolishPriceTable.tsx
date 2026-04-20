@@ -47,15 +47,6 @@ const services: PolishService[] = [
     van: "400",
     uniform: true,
   },
-  {
-    name: "Поліровка стійок або дрібних вставок",
-    desc: "Видалення подряпин на глянцевих деталях кузова",
-    car: "500",
-    suv: "500",
-    van: "500",
-    uniform: true,
-    pricePrefix: "від",
-  },
 ];
 
 const formatPrice = (s: PolishService, value: string) =>
