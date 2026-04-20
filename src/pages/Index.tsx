@@ -1,16 +1,10 @@
 import { Instagram, Phone } from "lucide-react";
 import DiamondLogo from "@/components/DiamondLogo";
 import PriceRow from "@/components/PriceRow";
+import WashPriceTable from "@/components/WashPriceTable";
 import foamWash from "@/assets/foam-wash.jpg";
 import polish from "@/assets/polish.jpg";
 import brushedMetal from "@/assets/brushed-metal.jpg";
-
-const washServices = [
-  { name: "Експрес мийка", price: "300" },
-  { name: "Комплексна мийка", price: "600" },
-  { name: "Хімчистка салону", price: "2000", fromPrice: true },
-  { name: "Нанокераміка водовідштовх.", price: "1500" },
-];
 
 const polishServices = [
   { name: "Легка поліровка", price: "4000" },
