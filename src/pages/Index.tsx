@@ -140,13 +140,13 @@ const Index = () => {
         <footer className="mt-16 rounded-2xl border border-border/40 bg-card/60 px-6 py-5 backdrop-blur md:mt-20">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <a
-              href="https://instagram.com/cristal.hlukhiv"
+              href="https://instagram.com/crystal.hlukhiv"
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center gap-3 text-foreground transition-smooth hover:text-primary"
             >
               <Instagram className="h-6 w-6 text-primary drop-shadow-[0_0_8px_hsl(var(--neon))]" />
-              <span className="font-medium tracking-wide">cristal.hlukhiv</span>
+              <span className="font-medium tracking-wide">crystal.hlukhiv</span>
             </a>
 
             <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
